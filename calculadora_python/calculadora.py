@@ -40,7 +40,7 @@ while True:
         
     if operador == '**':
         resultado = numero1_float ** numero2_float
-        print (f'A exponenciação entre {numero1_float} e {numero2_float} é {resultado}')  
+        print (f'A potenciação entre {numero1_float} e {numero2_float} é {resultado}')  
 
     sair = input ('Deseja sair? [s]im: ').lower().startswith('s')
     if sair is True:
